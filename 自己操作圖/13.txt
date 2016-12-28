@@ -1,0 +1,11 @@
+git.exe push --progress "origin" master:master
+
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 13.12 MiB | 9.09 MiB/s, done.
+Total 16 (delta 1), reused 0 (delta 0)
+To C:\Users\RD\Dropbox\Public\git_server\git_Dropbox
+cd06690..42186c5  master -> master
+
+Success (2589 ms @ 2016/12/28 下午 03:53:47)

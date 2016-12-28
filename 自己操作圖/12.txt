@@ -1,0 +1,12 @@
+git.exe push --progress "origin" master:master
+
+Counting objects: 110, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (107/107), done.
+Writing objects: 100% (110/110), 4.62 MiB | 0 bytes/s, done.
+Total 110 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To C:\Users\RD\Dropbox\Public\git_server\git_Dropbox
+* [new branch]      master -> master
+
+Success (1295 ms @ 2016/12/28 下午 03:48:45)
