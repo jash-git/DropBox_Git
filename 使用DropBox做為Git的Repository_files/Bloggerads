@@ -1,0 +1,41 @@
+(function () {
+    //var hdMutex = document.getElementById("$$ee_hdBloggerads");
+    var mutex = window["$$ee_hdBloggerads"];
+    if (!mutex) {
+        window["$$ee_hdBloggerads"] = true;
+        /*var newHd = document.createElement('input');
+        newHd.setAttribute('type', 'hidden');
+        newHd.id = "$$ee_hdBloggerads";
+        document.body.appendChild(newHd);*/
+
+        var baseUrl = "https://wrl.eagleeye.com.tw/Handler/Bloggerads?pu={pu}&pt={pt}&rf={rf}&pn={pn}&price={price}&bn={brand}&cat={cat}&up={up}&cuid={cuid}&t={t}&on={on}";
+        var pu = encodeURIComponent(document.location.href);
+        var pt = encodeURIComponent(document.title);
+        var rf = encodeURIComponent(document.referrer);
+
+        var tag = document.getElementById('$$ee_jsBloggerads');
+        if (!tag)
+            tag = document.getElementById('$$ee_js');
+
+        var fnAt = function (key) {
+            return tag.attributes[key] ? encodeURIComponent(tag.attributes[key].value) : '';            
+        };
+
+        var pn = fnAt('ee_pn');
+        var price = fnAt('ee_price'); 
+        var bn = fnAt('ee_bn'); 
+        var cat = fnAt('ee_cat');
+        var up = fnAt('ee_up');
+        var cuid = fnAt('ee_cuid');
+        var on = fnAt('ee_on'); 
+        
+        var url = baseUrl.replace(/{pu}/g, pu).replace(/{pt}/g, pt).replace(/{rf}/g, rf).replace(/{pn}/g, pn).replace(/{price}/g, price).replace(/{brand}/g, bn).replace(/{cat}/g, cat).replace(/{up}/g, up).replace(/{cuid}/g, cuid).replace(/{t}/g, (new Date()).getTime()).replace(/{on}/g, on);
+
+        var img = document.createElement("img");
+        img.src = url;
+
+        
+
+        
+    }    
+})();

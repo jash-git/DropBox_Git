@@ -1,0 +1,5 @@
+var DISQUSWIDGETS;
+
+if (typeof DISQUSWIDGETS != 'undefined') {
+    DISQUSWIDGETS.displayCount({"text":{"and":"and","comments":{"zero":"0 Comments","multiple":"{num} Comments","one":"1 Comment"}},"counts":[{"id":"https:\/\/dotblogs.com.tw\/kirkchen\/2012\/03\/30\/use_dropbox_as_git_repository","comments":0}]});
+}

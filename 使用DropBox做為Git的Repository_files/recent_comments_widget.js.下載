@@ -1,0 +1,79 @@
+
+
+document.write(' \
+<style type="text/css" media="screen">\
+	 .dsq-widget ul.dsq-widget-list {\
+	 padding: 0;\
+	 margin: 0;\
+	 text-align: left;\
+	 }\
+	 img.dsq-widget-avatar {\
+	 width: 32px;\
+	 height: 32px;\
+	 border: 0px;\
+	 margin: 0px;\
+	 padding: 0px 3px 3px 0px;\
+	 float: left;\
+	 }\
+	 a.dsq-widget-user {\
+	 font-weight: bold;\
+	 }\
+	 a.dsq-widget-thread {\
+	 font-weight: bold;\
+	 }\
+	 p.dsq-widget-meta {\
+	 clear: both;\
+	 font-size: 80%;\
+	 padding: 0;\
+	 margin: 0;\
+	 }\
+	 li.dsq-widget-item {\
+	 margin: 15px 0;\
+	 list-style-type: none;\
+	 clear: both;\
+	 }\
+	 span.dsq-widget-clout {\
+	 padding: 0 2px;\
+	 background-color: #ff7300;\
+	 color: #fff;\
+	 }\
+	 table.dsq-widget-horiz td {\
+	 padding-right: 15px;\
+	 }\
+	 .dsq-widget-comment p {\
+	 display: inline;\
+	 }\
+	 </style>\
+	 <ul class="dsq-widget-list">\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/hanabiranoshitaniumore/"><img class="dsq-widget-avatar" src="//a.disquscdn.com/uploads/users/15208/7186/avatar92.jpg?1475798057"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/hanabiranoshitaniumore/">0x0001F36D</a>\
+	 <span class="dsq-widget-comment"><p>寫這樣異常的美呢OvO</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://www.dotblogs.com.tw/kirkchen/2010/03/04/13887">[C#] 對Function之參數進行驗證 | 愛流浪的小風 - 點部落</a>&nbsp;&middot;&nbsp;<a href="https://www.dotblogs.com.tw/kirkchen/2010/03/04/13887#comment-2954837724">2 months ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/disqus_80RSou47h3/"><img class="dsq-widget-avatar" src="//a.disquscdn.com/1479321018/images/noavatar92.png"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/disqus_80RSou47h3/">蘇國鈞</a>\
+	 <span class="dsq-widget-comment"><p>謝謝您用心地分享，我從文章中學到很多!</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://www.dotblogs.com.tw/kirkchen/2010/03/04/13887">[C#] 對Function之參數進行驗證 | 愛流浪的小風 - 點部落</a>&nbsp;&middot;&nbsp;<a href="https://www.dotblogs.com.tw/kirkchen/2010/03/04/13887#comment-2853977386">4 months ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/disqus_60qj5OAARG/"><img class="dsq-widget-avatar" src="//a.disquscdn.com/uploads/users/20358/9605/avatar92.jpg?1460107430"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/disqus_60qj5OAARG/">賴坤漳</a>\
+	 <span class="dsq-widget-comment"><p>非常實用</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://dotblogs.com.tw/kirkchen/2014/06/03/update_website_cache_in_background">[PoC系列] 如何使用非同步更新網站快取(Cache) | 愛流浪的小風 - 點部落</a>&nbsp;&middot;&nbsp;<a href="https://dotblogs.com.tw/kirkchen/2014/06/03/update_website_cache_in_background#comment-2612643330">8 months ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/patrick_sun/"><img class="dsq-widget-avatar" src="//a.disquscdn.com/uploads/users/20158/6488/avatar92.jpg?1458800934"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/patrick_sun/">Patrick Sun</a>\
+	 <span class="dsq-widget-comment"><p>謝謝分享！很有用！</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://dotblogs.com.tw/kirkchen/2013/08/23/use_specrun_to_generate_specflow_testcase_report_and_integrate_with_jenkins">[Jenkins] 使用SpecRun產生BDD測試結果報表 | 愛流浪的小風 - 點部落</a>&nbsp;&middot;&nbsp;<a href="https://dotblogs.com.tw/kirkchen/2013/08/23/use_specrun_to_generate_specflow_testcase_report_and_integrate_with_jenkins#comment-2586331800">9 months ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/wuanunet/"><img class="dsq-widget-avatar" src="//a.disquscdn.com/uploads/users/7919/7852/avatar92.jpg?1467167455"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/wuanunet/">阿砮</a>\
+	 <span class="dsq-widget-comment"><p>小風大，打擾。以下有兩點想確認~ 1. 請問上述內容提到： 說明：修改 Dockerfile 的...</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://dotblogs.com.tw/kirkchen/2015/11/23/use_docker_running_aspnet_5_application">建立並使用Docker運行Asp.Net 5 RC 1應用程式 | 愛流浪的小風 - 點部落</a>&nbsp;&middot;&nbsp;<a href="https://dotblogs.com.tw/kirkchen/2015/11/23/use_docker_running_aspnet_5_application#comment-2403551112">1 year ago</a></p>\
+	 </li>\
+	 </ul>\
+');
